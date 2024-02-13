@@ -1,0 +1,355 @@
+.user-dashboard {
+    display: flex;
+  }
+  
+  .sidebar {
+    flex: 0 0 250px;
+    width: 250px;
+    padding: 20px;
+    height: 100%;
+    background-color: aliceblue;
+    overflow-y: auto; /* Enable vertical scrolling */
+    height: calc(100vh - 60px);
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 20px;
+  }
+  
+  .sidebar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar-nav li a {
+    color: #333;
+    text-decoration: none;
+    white-space: nowrap; /* Prevent text from wrapping to the next line */
+    overflow: hidden; /* Hide any overflowing text */
+    text-overflow:ellipsis; /* Add ellipsis (...) for text that overflows */
+  }
+  
+  .nav-link {
+    display: block;
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+    border: none;
+  }
+  
+  .nav-link.active {
+    font-weight: bold;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .content h2 {
+    margin-bottom: 20px;
+  }
+  
+  .personal-info {
+    border:20px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+  }
+  
+  .create-estimate {
+    border: 20px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+  }
+  
+  .create-estimate h3 {
+    margin-bottom: 10px;
+  }
+  
+  .create-estimate input[type='text'] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .create-estimate button {
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .estimate-list {
+    margin-top: 20px;
+  }
+  
+  .estimate-list h4 {
+    margin-bottom: 5px;
+  }
+  
+  .estimate-list button {
+    padding: 5px 10px;
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .estimate-details {
+    margin-top: 20px;
+  }
+  
+  .estimate-details h3 {
+    margin-bottom: 10px;
+  }
+    
+  .logout-button {
+    margin-top: 60px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 12px 12px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 150px;
+    height: 45px;
+  }
+  
+  .logout-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .logout-button:focus {
+    outline: none;
+  }
+  
+  .logout-button:active {
+    background-color: #b71c1c;
+  }
+  
+  
+  .navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: rgb(110, 96, 145);
+    height: 10x;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin-left: 10px;
+   
+  }
+  
+  .nav-link {
+    color: #333;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    background-color: #ddd;
+  }
+  
+  .nav-link.active {
+    background-color: #aaa;
+    color: #fff;
+  }
+  
+  .collaboration {
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  .collaboration h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .message-container {
+    margin-top: 20px;
+  }
+  
+  .message {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .message-sender {
+    font-weight: bold;
+    color: black;
+  }
+  
+  .message-content {
+    margin-top: 5px;
+    color: black;
+  }
+  
+  .message-timestamp {
+    font-size: 12px;
+    color: #888;
+    margin-top: 5px;
+  }
+  
+  .reports {
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  .reports h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .report-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .report {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .report h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color:#333;
+  }
+  
+  .report p {
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .generate-report-btn {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .generate-report-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .notifications {
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  .notifications h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .notification-list {
+    margin-top: 20px;
+  }
+  
+  .notification {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  .notification-time {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .notification-message {
+    margin: 0;
+    color: #333;
+  }
+  
+  /* Style for the last notification to remove the bottom border */
+  .notification:last-child {
+    border-bottom: none;
+  }
+  
+  .user-performance-settings {
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  .user-performance-settings h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    backdrop-filter: blur(15px);
+  }
+  
+  .performance-metrics {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .metric {
+    flex-basis: 30%;
+    text-align: center;
+  }
+  
+  .metric h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .metric p {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+  }
+  
+  .user-settings {
+    margin-top: 20px;
+    
+  }
+  
+  .user-settings h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .user-settings ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .user-settings li {
+    margin-bottom: 5px;
+  }
+  

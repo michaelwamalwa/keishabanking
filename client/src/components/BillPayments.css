@@ -1,0 +1,43 @@
+.bill-payments-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+  }
+  
+  .bill-payments-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .bill-payments-container form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .bill-payments-container label {
+    font-weight: bold;
+  }
+  
+  .bill-payments-container select,
+  .bill-payments-container input[type='number'],
+  .bill-payments-container input[type='date'] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .bill-payments-container button[type='submit'] {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .bill-payments-container button[type='submit']:hover {
+    background-color: #45a049;
+  }
+  

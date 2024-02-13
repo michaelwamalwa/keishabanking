@@ -1,0 +1,133 @@
+/* Signup.css */
+
+body{
+    overflow: auto;
+}
+.gradient-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Add justify-content property to center the flexbox vertically */
+  backdrop-filter: blur(100px); /* Apply backdrop filter for a blurred effect */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  top: 10px;
+  left: 25%;
+  width: fit-content;
+  padding: 6.99%;
+  height: fit-content;
+
+}
+  
+  .row {
+    display: flex;
+  }
+
+  .col-6 {
+    flex: 0 0 50%;
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  
+  .flex-column {
+    flex-direction: column;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .logo {
+    width: 185px;
+  }
+  
+  .mt-1 {
+    margin-top: 1rem;
+  }
+  
+  .mb-5 {
+    margin-bottom: 4rem;
+  }
+  .pb-1 {
+    padding-bottom: 1rem;
+  }
+  
+  .login-message {
+    margin-bottom: 1rem;
+  }
+  
+  input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+  }
+  
+  .text-muted {
+    color: #6c757d;
+  }
+  
+  .pt-1 {
+    padding-top: 1rem;
+  }
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  
+  .pb-1 {
+    padding-bottom: 1rem;
+  }
+  .flex-row {
+    flex-direction: row;
+  }
+  
+  .align-items-center {
+    align-items: center;
+  }
+  
+  .justify-content-center {
+    justify-content: center;
+  }
+  .pb-4 {
+    padding-bottom: 5rem;
+  }
+  .mb-4 {
+    margin-bottom: 4rem;
+  }
+  .section {
+    margin-bottom: 0;
+  }
+  .btn-outline-danger {
+    margin: 0 0.5rem;
+    border-color: #dc3545;
+    color: #dc3545;
+    background-color: transparent;
+    padding: 0.375rem 1.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s;
+  }
+  .text-white {
+    color: #fff;
+  }
+  .px-3 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .py-4 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .p-md-5 {
+    padding: 1rem;
+  } 
+  .mx-md-4 {
+    margin-left: 3rem;
+    margin-right: 2rem;
+  }
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  

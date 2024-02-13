@@ -1,0 +1,48 @@
+.account-settings-container {
+    max-width: 2800px;
+    margin: 0 auto;
+    padding: 20px;
+    height: 600px;
+    backdrop-filter: blur(3437px);
+    overflow-y: auto;
+  }
+  
+  .account-settings-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .account-settings-container form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .account-settings-container label {
+    font-weight: bold;
+  }
+  
+  .account-settings-container input[type='text'],
+  .account-settings-container input[type='email'] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .account-settings-container input[type='checkbox'] {
+    margin-right: 8px;
+  }
+  
+  .account-settings-container button[type='submit'] {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .account-settings-container button[type='submit']:hover {
+    background-color: #45a049;
+  }
+  

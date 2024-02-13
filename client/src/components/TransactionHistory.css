@@ -1,0 +1,51 @@
+.transaction-history-container {
+  margin: 0 auto;
+  padding: 20px;
+  backdrop-filter: blur(233px);
+  height: 700px;
+  overflow-y: auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.add-transaction-form {
+  margin-top: 20px;
+}
+
+.add-transaction-form form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+}
+
+.add-transaction-form label {
+  font-weight: bold;
+}
+
+.add-transaction-form input[type="date"],
+.add-transaction-form input[type="text"],
+.add-transaction-form select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-transaction-form button[type="submit"] {
+  background-color: #28a745;
+}

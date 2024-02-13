@@ -1,0 +1,52 @@
+.help-and-support-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    backdrop-filter: blur(5667px);
+  }
+  
+  .help-and-support-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .help-and-support-container nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .help-and-support-container nav ul li {
+    flex: 1;
+  }
+  
+  .help-and-support-container nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .help-and-support-container nav ul li a:hover {
+    color: #f44336;
+  }
+  
+  .help-and-support-container h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .help-and-support-container p {
+    margin-bottom: 20px;
+  }
+  
+  .help-and-support-container ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .help-and-support-container li {
+    margin-bottom: 5px;
+  }
+  
+  

@@ -1,0 +1,54 @@
+.profile-settings-container {
+    max-width: 400px;
+    margin: 0 auto;
+    backdrop-filter: blur(3244px);
+  }
+  
+  .profile-settings-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .profile-settings-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile-settings-container form div {
+    margin-bottom: 10px;
+  }
+  
+  .profile-settings-container label {
+    font-weight: bold;
+  }
+  
+  .profile-settings-container input,
+  .profile-settings-container select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .profile-settings-container button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .profile-settings-container button[type="submit"] {
+    margin-top: 20px;
+  }
+  
+  .profile-settings-container button[type="button"] {
+    background-color: #dc3545;
+    margin-top: 10px;
+  }
+  
+  .profile-settings-container button[type="submit"]:hover,
+  .profile-settings-container button[type="button"]:hover {
+    opacity: 0.8;
+  }
+  
