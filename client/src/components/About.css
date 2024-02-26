@@ -1,0 +1,55 @@
+/* Center Wrapper styles */
+.center-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* This ensures that the flex container takes at least the full height of the viewport */
+}
+
+/* Existing styles for .aboutContainer remain unchanged */
+.aboutContainer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px; /* Consider adjusting if necessary for your design */
+}
+
+  .aboutContainer h1 {
+    color: #005a87;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .aboutContent {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .aboutContent p {
+    color: #333;
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+  
+  .aboutContent ul {
+    margin: 20px 0;
+    padding-left: 20px;
+  }
+  
+  .aboutContent li {
+    margin-bottom: 10px;
+  }
+  
+  .aboutContent li:before {
+    content: '•';
+    color: #005a87;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+  
